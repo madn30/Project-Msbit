@@ -1,0 +1,25 @@
+.add-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.error-msg {
+  font-size: 0.7em;
+  color: red;
+}
+button[type="submit"] {
+  color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 13px;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,15 @@
+.main-layout {
+  display: grid;
+  height: 100vh;
+  column-gap: 24px;
+  grid-template-columns: minmax(10%, auto) 1fr minmax(10%, auto);
+  grid-template-rows: 50px 1fr 50px; 
+}
+
+.main-layout > .full {
+  grid-column: 1 / -1;
+}
+
+.main-layout > :not(.full) {
+  grid-column: 2; 
+}
